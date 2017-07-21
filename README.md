@@ -8,7 +8,7 @@ This guide shows, how to keep a powerbank alive while using it with a microcontr
 While using a powerbank with a mcu, most powerbanks while simply shut down after a certain period. That is because of the minimum load which a powerbank requires.
 Is current load below the minimum load, the powerbank will shutdown after a few seconds.
 In most cases, the load of the mcu is some mA below this required minimum load, so you can't use a mcu while keeping a powerbank alive.
-What we do is to do push the load of the powerbank every X seconds for a specific amount. We use this push as some kind of 'wake up sigal'.
+What we do is to do push the load of the powerbank every X seconds for a specific amount. We use this push as some kind of 'wake up signal'.
 
 What we need to know: minimal load of powerbank and load of mcu
 
