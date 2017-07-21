@@ -132,4 +132,4 @@ For Arduino-IDE download the file and compile with IDE: [LINK](https://github.co
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-The program code is licensed under GNU General Public License 3. Take a look at the [license file](https://github.com/Staubgeborener/Scapy_RandomPaketSender/blob/master/LICENSE) for more informations.
+The program code is licensed under GNU General Public License 3. Take a look at the [license file](https://github.com/Staubgeborener/ESP32_KeepPowerbankAlive/blob/master/LICENSE) for more informations.
