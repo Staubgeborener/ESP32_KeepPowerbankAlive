@@ -10,7 +10,7 @@ Is current load below the minimum load, the powerbank will shutdown after a few 
 In most cases, the load of the mcu is some mA below this required minimum load, so you can't use a mcu while keeping a powerbank alive.
 What we do is to do push the load of the powerbank every X seconds for a specific amount. We use this push as some kind of 'wake up signal'.
 
-What we need to know: minimal load of powerbank and load of mcu
+**What we need to know:** minimal load of powerbank and load of mcu
 
 In this guide we use:
 * ESP32 from Espressif Systems as MCU
