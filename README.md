@@ -29,7 +29,7 @@ What we want to calculate is I. At R1 (base) we have:
 
 ![equation R1](http://latex.codecogs.com/gif.latex?I%20%3D%20%5Cfrac%7BU%7D%7BR%7D%20%3D%20%5Cfrac%7B%283%2C3%20V%20-%200%2C7%20V%29%7D%7B1000%20%5COmega%20%7D%20%3D%202.6%20mA)  
 
-2.6 mA of 100 mA seems low. And it is. But keep in mind: The maximum current of a esp32 gpio pin is [12 mA](https://esp32.com/viewtopic.php?p=9557&sid=85a6f03df066f869d075708be51dbcb8#p9557). 
+2.6 mA of 100 mA seems low. And it is. But keep in mind: The maximum current of a esp32 gpio pin is [12 mA](https://esp32.com/viewtopic.php?p=9557&sid=85a6f03df066f869d075708be51dbcb8#p9557). Also there is a voltage drop between base and ermitter of the npn transistor of around 0.7 V.
 
 Next we've got R2 (collector):
 
