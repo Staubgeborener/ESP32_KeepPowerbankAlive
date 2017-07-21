@@ -124,6 +124,11 @@ void setup()
 }
 ```
 
+## Installation / Flashing
+For ESP-IDF download the files: [LINK](https://github.com/Staubgeborener/ESP32_KeepPowerbankAlive/tree/master/esp-idf) and compile with ``make flash``
+
+For Arduino-IDE download the file and compile with IDE: [LINK](https://github.com/Staubgeborener/ESP32_KeepPowerbankAlive/tree/master/arduino-ide)
+
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
