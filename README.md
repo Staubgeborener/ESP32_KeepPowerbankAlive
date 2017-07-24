@@ -129,10 +129,7 @@ For ESP-IDF download the files: [LINK](https://github.com/Staubgeborener/ESP32_K
 
 For Arduino-IDE download the file and compile with IDE: [LINK](https://github.com/Staubgeborener/ESP32_KeepPowerbankAlive/tree/master/arduino-ide)
 
-**Just download everything**
-```
-$ git clone https://github.com/Staubgeborener/ESP32_KeepPowerbankAlive/
-```
+**Just download everything:** `$ git clone https://github.com/Staubgeborener/ESP32_KeepPowerbankAlive/`
 
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
