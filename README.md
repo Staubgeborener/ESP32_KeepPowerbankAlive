@@ -19,7 +19,7 @@ In this guide we use:
 * some resistors and a LED
 
 ## Circuit
-![Circuit](https://github.com/Staubgeborener/ESP32_KeepPowerbankAlive/blob/master/esp32-wroom_powerbank_circuit.png "Circuit")
+![Circuit](https://github.com/Staubgeborener/ESP32_KeepPowerbankAlive/blob/master/media/esp32-wroom_powerbank_circuit.png "Circuit")
 
 The circuit is rather simple. Connect the collector of the npn transistor to the 5 V pin of the esp32, the ermitter to ground and the base to any free gpio. The led and R3 is not necessary, but it's nice to visualize the wake up signal.
 The VOLTCRAFT Powerbank needs a minimal load of 100 mA (just look into the datasheet or ask the manufacturer). An ESP32 needs without doing anything around 0.04 A. That means, we only need further 0.06 A to keep the powerbank alive. 
